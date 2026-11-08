@@ -1,0 +1,21 @@
+# Core framework
+streamlit>=1.40
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-huggingface>=0.1
+
+# Embeddings + vector database
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+numpy>=1.26
+
+# LLM providers (install both so you can switch with LLM_PROVIDER in .env)
+langchain-anthropic>=0.3
+langchain-openai>=0.2
+
+# PDF parsing, config, offline TF-IDF baseline used by the evaluation script
+pypdf>=5.0
+python-dotenv>=1.0
+scikit-learn>=1.4
+pandas>=2.0

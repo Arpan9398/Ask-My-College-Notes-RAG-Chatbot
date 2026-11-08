@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+.huggingface/
+data/index/
+data/eval_results.json
+*.faiss
+*.pkl
+.DS_Store

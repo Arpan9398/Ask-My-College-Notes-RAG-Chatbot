@@ -1,0 +1,22 @@
+{
+  "_comment": "expected_source = PDF file name, expected_pages = 1-based page(s) that contain the answer. expected_source null = the answer is NOT in the notes (should be rejected / answered 'not found').",
+  "questions": [
+    {"id": "Q01", "question": "What are the four conditions that must hold for a deadlock to occur?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [4]},
+    {"id": "Q02", "question": "How does Round Robin scheduling decide how long each process gets to run?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [3]},
+    {"id": "Q03", "question": "What is Belady's anomaly?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [5]},
+    {"id": "Q04", "question": "What information does a process control block store?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [2]},
+    {"id": "Q05", "question": "Why do systems use a TLB?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [5]},
+    {"id": "Q06", "question": "What is the difference between user mode and kernel mode?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [1]},
+    {"id": "Q07", "question": "Which problem does aging solve in priority scheduling?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [3]},
+    {"id": "Q08", "question": "What does the Banker's algorithm do?", "expected_source": "Operating_Systems_Notes.pdf", "expected_pages": [4]},
+    {"id": "Q09", "question": "What is the balance factor of a node in an AVL tree?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [3]},
+    {"id": "Q10", "question": "How does separate chaining handle hash collisions?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [4]},
+    {"id": "Q11", "question": "Which tree traversal returns the keys of a binary search tree in sorted order?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [3]},
+    {"id": "Q12", "question": "Why is inserting into the middle of an array slower than inserting into a linked list?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [1]},
+    {"id": "Q13", "question": "Which data structure does breadth-first search rely on?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [4]},
+    {"id": "Q14", "question": "How does a circular queue avoid wasting space?", "expected_source": "Data_Structures_Notes.pdf", "expected_pages": [2]},
+    {"id": "U01", "question": "What is the syntax of a for loop in Rust?", "expected_source": null, "expected_pages": []},
+    {"id": "U02", "question": "How does TCP congestion control work?", "expected_source": null, "expected_pages": []},
+    {"id": "U03", "question": "What were the main causes of the French Revolution?", "expected_source": null, "expected_pages": []}
+  ]
+}
